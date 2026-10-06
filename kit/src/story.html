@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8"><link rel="stylesheet" href="kit.css">
+<style>
+html, body { width: 1080px; height: 1920px; }
+.code { left: 96px; top: 24px; font-size: 26px; line-height: 1.8; }
+.in { position: absolute; inset: 0; padding: 220px 96px 250px; display: flex; flex-direction: column; }
+.kicker { font-size: 44px; margin-bottom: 30px; }
+h1 { font-size: 150px; margin-bottom: 60px; }
+.lead { font-size: 44px; line-height: 1.6; max-width: 860px; margin: 0 0 70px; }
+.svc { font-size: 42px; display: grid; grid-template-columns: 1fr 1fr; gap: 26px 40px; margin-bottom: auto; }
+.foot { display: flex; align-items: center; gap: 48px; padding-top: 56px; border-top: 2px solid var(--line); }
+.qr { width: 300px; height: 300px; padding: 18px; }
+.cta p { margin: 0 0 22px; font-size: 38px; }
+.wa { font-size: 52px; padding: 22px 36px; }
+.url { font-size: 34px; margin-top: 26px; display: block; }
+</style></head><body>
+<svg class="traces" viewBox="0 0 1080 1920" preserveAspectRatio="none"><g fill="none" stroke="currentColor" stroke-width="3"><path d="M-10 120H300L360 180H700"/><path d="M1090 1000H880L820 1060V1240"/><path d="M-10 1300H140L200 1360V1500"/></g><g fill="currentColor"><circle cx="700" cy="180" r="8"/><circle cx="820" cy="1240" r="8"/><circle cx="200" cy="1500" r="8"/></g></svg>
+<pre class="code">$ diagnose --device phone
+display ........ touch fail
+battery ........ health 71%
+port ........... ok</pre>
+<div class="in">
+  <p class="kicker">فني صيانة متنقل</p>
+  <h1>جهازك تعطّل؟<br>نصلحه عندك.</h1>
+  <p class="lead">جوالات وأجهزة كمبيوتر. الفني يجيك للبيت أو المكتب، ويقول لك العطل والسعر قبل ما يبدأ.</p>
+  <ul class="svc">
+    <li>شاشات ولمس</li><li>بطاريات</li>
+    <li>منافذ الشحن</li><li>بطء اللابتوب</li>
+    <li>الويندوز والفيروسات</li><li>استرجاع البيانات</li>
+  </ul>
+  <div class="foot">
+    <img class="qr" src="../qr-whatsapp.png" alt="">
+    <div class="cta">
+      <p class="muted">صوّر الكود أو راسلنا</p>
+      <span class="wa"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 4.54 0 8.24 3.7 8.24 8.24 0 4.55-3.7 8.24-8.24 8.24Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.13-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/></svg><span class="num">053 195 4355</span></span>
+      <span class="url">siyanah.netlify.app</span>
+    </div>
+  </div>
+</div>
+</body></html>

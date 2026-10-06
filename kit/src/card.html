@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8"><link rel="stylesheet" href="kit.css">
+<!-- A6 portrait at 300 dpi: 105 x 148 mm = 1240 x 1748 px -->
+<style>
+html, body { width: 1240px; height: 1748px; }
+.code { left: 70px; top: 90px; font-size: 26px; line-height: 1.8; }
+.in { position: absolute; inset: 0; padding: 130px 100px 100px; display: flex; flex-direction: column; }
+.kicker { font-size: 46px; margin-bottom: 26px; }
+h1 { font-size: 150px; margin-bottom: 44px; }
+.lead { font-size: 44px; line-height: 1.6; margin: 0 0 auto; }
+.phone { font-size: 108px; color: var(--silk); margin: 0 0 50px; text-align: center; }
+.qrs { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; }
+.qrs figure { margin: 0; text-align: center; }
+.qr { width: 100%; padding: 20px; }
+.qrs figcaption { margin-top: 18px; font-size: 40px; font-weight: 600; }
+</style></head><body>
+<svg class="traces" viewBox="0 0 1240 1748" preserveAspectRatio="none"><g fill="none" stroke="currentColor" stroke-width="3"><path d="M1250 80H960L900 140H640"/><path d="M-10 900H160L220 960V1100"/></g><g fill="currentColor"><circle cx="640" cy="140" r="8"/><circle cx="220" cy="1100" r="8"/></g></svg>
+<pre class="code">$ diagnose --device phone
+battery ........ health 71%</pre>
+<div class="in">
+  <p class="kicker">فني صيانة متنقل</p>
+  <h1>جهازك تعطّل؟<br>نصلحه عندك.</h1>
+  <p class="lead muted">جوالات وأجهزة كمبيوتر: شاشات، بطاريات، منافذ شحن، بطء، فيروسات، استرجاع بيانات.</p>
+  <p class="phone num">053 195 4355</p>
+  <div class="qrs">
+    <figure><img class="qr" src="../qr-whatsapp.png" alt=""><figcaption>راسلنا واتساب</figcaption></figure>
+    <figure><img class="qr" src="../qr-site.png" alt=""><figcaption>الموقع والخدمات</figcaption></figure>
+  </div>
+</div>
+</body></html>
